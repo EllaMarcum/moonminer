@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>MoonMiner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img onclick="getLeaves();"
+            src="https://res.cloudinary.com/teepublic/image/private/s--8k6EgTW_--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1494978892/production/designs/1606655_1.jpg"
+            alt="Groot">
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6">
+              <img onclick="clickUpgrade();"
+                src="https://www.futurefarms.in/wp-content/uploads/2019/04/water-drop-icon.png" style="width: 100px"
+                alt="">
+            </div>
+            <div class="col-6">
+              <img onclick="autoUpgrade();"
+                src="https://static.vecteezy.com/system/resources/previews/000/550/828/original/sun-icon-vector.jpg"
+                style="width: 100px;" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <h5 id="waterCount">upgrade count 0</h5>
+            </div>
+            <div class="col-6">
+              <h5 id="sunCount">auto upgrade count 0</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <label id="waterPerClick">per click 0</label>
+            </div>
+            <div class="col-6">
+              <label id="sunPerClick"> per auto 0</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <label id="waterPrice">water price 0</label>
+            </div>
+            <div class="col-6">
+              <label id="sunPrice"> sun price 0</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 id="leafCount">Leaf Count 0</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+  <script src="app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
